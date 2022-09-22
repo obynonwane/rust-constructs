@@ -14,4 +14,10 @@ pub fn run(){
     //placeholder traits
     println!("Binary: {:b} Hex: {:x} Octo: {:o}", 10, 10, 10);
 
+    //placehlder for debug trait
+    println!("{:?}", (12, true, "Welcome"));
+
+    //Basic Math
+    println!("10 + 10 = {}", 10 +10);
+
 }
