@@ -4,8 +4,8 @@ pub fn run(){
     let arr2 = arr1;
 
     //refernce types - vectors 
-    let arr1 = vec![1,2,3,4];
-    let arr2 = arr1;
+    let vec1 = vec![1,2,3,4];
+    let vec2 = arr1;
     
-    println!("primitive array {:?}", (arr1 , arr2));
+    println!("primitive array {:?}", (vec1 , vec2));
 }
